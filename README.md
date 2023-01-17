@@ -2,20 +2,19 @@
 
 > [React + Typescript cheat sheet](https://mate-academy.github.io/fe-program/js/extra/react-typescript)
 
-Make the `App` a class component with `pressedKey` in the `state`.
+Implement the App using React Hooks useState and useEffect
 
 > Here is [the working version](https://mate-academy.github.io/react_keyboard/)
 
 - before any key was pressed show the `Nothing was pressed yet` message;
 - when a key is pressed show a `The last pressed key is [key]` message;
-- use `componentDidMount` to add `keyup` handler:
+- add `keyup` handler when the component appears
     ```ts
     // DON'T import KeyboardEvent from React, because it is a regular event
     document.addEventListener('keyup', (event: KeyboardEvent) => {
       console.log(event.key);
     });
     ```
-- use `removeEventListener` to remove a global handler in `componentWillUnmount`.
 
 ## Instructions
 
