@@ -1,4 +1,4 @@
-# React Keyboard
+# React Keyboard (Hooks)
 
 > [React + Typescript cheat sheet](https://mate-academy.github.io/fe-program/js/extra/react-typescript)
 
